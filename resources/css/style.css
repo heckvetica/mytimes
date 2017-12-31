@@ -14,6 +14,7 @@ body {
 header {
     display: flex;
     background-color: white;
+    position: fixed;
     width: 100%;
     height: 80px;
     flex-grow: 1;
@@ -53,17 +54,60 @@ nav a {
 /* Main Section */
 #main {
     display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
 
 .column.large {
+    display: flex;
     width: 630px;
-  }
+}
   
-  .column.medium {
+.column.medium {
+    display: flex;
     width: 300px;
-  }
+}
   
-  .column.small {
+.column.small {
+    display: flex;
     width: 240px;
-  }
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.one {
+    font-size: 40px;
+    background-image: url(../img/phish.png);
+}
+
+.two {
+    background-image: url(../img/earth.png);
+}
+
+.three {
+    background-image: url(../img/camera.png);
+}
+
+.four {
+    background-image: url(../img/cat.png);
+}
