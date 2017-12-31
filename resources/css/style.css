@@ -1,3 +1,9 @@
+/* === TODO: Remove this section === */
+div {
+    border: 1px solid black;
+}
+/* === TODO: Remove above section === */
+
 body {
     margin: 0;
     padding: 0;
@@ -43,3 +49,21 @@ nav span {
 nav a {
     color: black;
 }
+
+/* Main Section */
+#main {
+    display: flex;
+}
+
+
+.column.large {
+    width: 630px;
+  }
+  
+  .column.medium {
+    width: 300px;
+  }
+  
+  .column.small {
+    width: 240px;
+  }
