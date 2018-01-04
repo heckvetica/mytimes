@@ -1,10 +1,3 @@
-/* === TODO: Remove this section === */
-div {
-    border: 1px solid black;
-}
-
-/* === TODO: Remove above section === */
-
 body {
     margin: 0;
     padding: 0;
@@ -71,7 +64,6 @@ nav a {
 
 .column.large {
     display: flex;
-    align-items: space-around;
     width: 630px;
 }
   
@@ -124,13 +116,13 @@ nav a {
 .substories {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .story {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 300px;
 }
 
